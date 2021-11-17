@@ -6,11 +6,12 @@
 /*   By: pglinda <pglinda@student.21-school.ru>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 19:30:27 by pglinda           #+#    #+#             */
-/*   Updated: 2021/11/07 08:28:34 by pglinda          ###   ########.fr       */
+/*   Updated: 2021/11/17 21:59:09 by pglinda          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 void	ft_putchar_fd(char c, int fd)
 {
 	write (fd, &c, 1);
